@@ -1,5 +1,5 @@
 {
-    "name": "api-platform/schema-generator",
+    "name": "alinasob/schema-generator",
     "type": "library",
     "description": "Various tools to generate a data model based on Schema.org vocables",
     "keywords": [
@@ -71,5 +71,8 @@
         "allow-plugins": {
             "composer/package-versions-deprecated": true
         }
+    }
+    "replace": {
+        "api-platform/schema-generator": "self.version"
     }
 }
